@@ -11,9 +11,9 @@ def main():
     # ensure_api_key()
     
     llm = LLM(
-        model="Qwen/Qwen3.5-397B-A17B",
-        api_key="sk-lrfebmufktzzjvsswvlwlxjilgudhhibaogqvbzsroqadlxx",
-        base_url="https://api.siliconflow.cn/v1/",
+        model="模型名称",
+        api_key="API",
+        base_url="",
         temperature=0.0,
         max_tokens=8192,
     )
